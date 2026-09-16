@@ -1,0 +1,8 @@
+-¿Cuál de los tres comandos descarga providers?
+terraform init, terraform fmt y terraform validate
+
+-¿Cuál corrige el formato del código?
+terraform fmt
+
+-¿Cuál comprueba si la configuración es válida?
+terraform validate

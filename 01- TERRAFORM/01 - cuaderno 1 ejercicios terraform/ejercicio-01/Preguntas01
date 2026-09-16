@@ -1,0 +1,9 @@
+- ¿Por qué validate puede funcionar aunque todavía no exista ningún recurso?
+Porque lo que hace validate es como una corrección de ortografía o de lógica en el lenguaje de terraform, y al estar vacío el archivo, lo lee y al no encontrar ningún error lo valida
+
+- ¿Qué diferencia hay entre un archivo .tf y un recurso de AWS?
+Un archivo .tf es el plano de texto donde introduces las instrucciones de lo que vas a querer, mientras que el recurso de aws es el programa real construida y funcional en los servidores de amazon.
+
+- La version utilizada es Terraform v1.16.2 on windows_amd64
+
+- Infrastructure as Code: es básicamente el automatizar la configuración y realización de procesos mediante el uso de archivos que son como los planos de lo que quieres para tu programa, consiguiendo una gestión mucho mas rápida que si la hiciésemos de forma manual
